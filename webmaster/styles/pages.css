@@ -1,0 +1,53 @@
+body {
+  color: #000000;
+}
+
+header {
+ background-image: none;
+ margin: 0;
+ padding: 0;
+}
+
+main {
+  text-align: left;
+}
+main p {
+  text-align: left;
+}
+main ul {
+  list-style-type: square;
+}
+main ul li {
+  font-size: 200%;
+  font-weight: bold;
+  padding-top: 7.5vh;
+}
+
+ul.officers li {
+  font-size: 150%;
+}
+
+ul.groups {
+  /*Changes List tab to a circle*/
+  list-style-type: disc;
+}
+ul.groups li {
+  padding-right: 2.5vw;
+  padding-bottom: 20px;
+  font-size: 150%;
+}
+.groups p {
+  display: inline;
+}
+
+header h3 {
+  font-size: 130%;
+  padding-bottom: 20vh;
+  padding-top: 8px;
+  font-style: italic;
+}
+
+/*This is an ID Selector*/
+#noheader {
+  padding-top: 100px;
+}

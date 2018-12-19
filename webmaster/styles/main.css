@@ -1,0 +1,211 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
+
+html:reset {}
+
+#center {text-align: center;}
+
+
+/*Navigation Bar*/
+/*This is a class selector*/
+.navbar {
+  background-color: #3D3D3D;
+  font-family: Helvetica; Verdana; Serif;
+  /*Positioning formatting*/
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.nav-txt {
+  display: inline;
+  position: relative;
+  bottom: 21px;
+  left: 2vw;
+  font-size: 200%;
+}
+.nav-txt a {
+  color: #D4DEDB;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  padding-right: 1vw;
+}
+.nav-txt a:hover {
+  transition: color 1s;
+  color: #59FE00;
+}
+
+
+
+
+/* The dropdown container */
+.dropdown {
+  overflow: hidden;
+  display: inline;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 2px;
+  background-color: #3D3D3D;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #D4DEDB;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*Background*/
+
+body {
+	background-color: #929292;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+
+  font-family: "Verdana", sans-serif, serif;
+
+  margin: 0;
+  padding: 0;
+}
+
+/*Sections*/
+
+/*- Header*/
+
+header {
+	background-image: url(../image/ph_bk.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 65vh;
+  margin-bottom: 15vh;
+  margin-top: 10vh;
+}
+header h1,blockquote,h3 {
+	text-align: center;
+	color: #E0E0E0;
+  /*Text Shadow*/
+  text-shadow: 0 0 3px #656565;
+}
+/*This is a relational selector*/
+/*This is a combinator*/
+header h1 {
+	font-size: 325%;
+	padding-top: 20vh;
+	padding-bottom: 8px;
+  transition:
+}
+header blockquote {
+  font-size: 200%;
+	padding-bottom: 20vh;
+	padding-top: 8px;
+  font-style: italic;
+}
+
+
+/*- Main*/
+
+main {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+main p {
+  text-align: center;
+}
+main img {
+  float: right;
+  display: inline;
+}
+.withImg {
+  
+}
+
+main h2 {
+  text-align: center;
+}
+
+
+/*- Footer*/
+
+footer {
+  background-color: #2B2B2B;
+  height: 15vh;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 110%;
+}
+footer p {
+  padding-top: 7.5vh;
+}
+footer a {
+  border-right: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  /*Side Paddings are larger to act as space*/
+  padding-left: 7.5vw;
+  padding-right: 7.5vw;
+}
+
+/*Mobile/Small Device Style  - - Keep out until normal stylesheet is complete*/
+
+/*
+@media (max-width: 700px) {
+
+  ul.navbar {
+  	padding-top: 0;
+  	padding-bottom: 0;
+  	border-bottom: 10px double LightGray;
+  }
+
+  ul.navbar li {
+  	display: block;
+  	font-size: 150%;
+
+  }
+
+  ul.navbar li a {
+  	border-right: 0;
+  }
+
+
+  body {
+    background-image: linear-gradient(#505050, #1C1C1C);
+    background-attachment: fixed;
+	width: 900px;
+  }
+}
+*/
