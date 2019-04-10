@@ -1,0 +1,144 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
+
+html:reset {}
+
+#center {text-align: center;}
+
+
+/*Navigation Bar*/
+.navbar {
+  background-color: #3D3D3D;
+  font-family: Helvetica; Verdana; Serif;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.nav-txt {
+  display: inline;
+  position: relative;
+  bottom: 21px;
+  left: 2vw;
+  font-size: 200%;
+}
+.nav-txt a {
+  color: #D4DEDB;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  padding-right: 1vw;
+}
+.nav-txt a:hover {
+  transition: color 1s;
+  color: #59FE00;
+}
+/*Background*/
+
+body {
+	background-color: #929292;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+
+  font-family: "Verdana", sans-serif, serif;
+
+  margin: 0;
+  padding: 0;
+}
+
+/*Sections*/
+
+/*- Header*/
+
+header {
+	background-image: url(../image/ph_bk.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 65vh;
+  margin-bottom: 15vh;
+  margin-top: 10vh;
+}
+header h1,h3 {
+	text-align: center;
+	color: #E0E0E0;
+  text-shadow: 0 0 3px #656565;
+}
+header h1 {
+	font-size: 325%;
+	padding-top: 20vh;
+	padding-bottom: 8px;
+  transition:
+}
+header h3 {
+  font-size: 175%;
+	padding-bottom: 20vh;
+	padding-top: 8px;
+}
+
+
+/*- Main*/
+
+main {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+main p {
+  text-align: center;
+}
+
+main h2 {
+  text-align: center;
+}
+
+
+/*- Footer*/
+
+footer {
+  background-color: #2B2B2B;
+  height: 15vh;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 110%;
+}
+footer p {
+  padding-top: 7.5vh;
+}
+footer a {
+  border-right: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  padding-left: 7.5vw;
+  padding-right: 7.5vw;
+}
+
+/*Mobile/Small Device Style  - - Keep out until normal stylesheet is complete*/
+
+/*
+@media (max-width: 700px) {
+
+  ul.navbar {
+  	padding-top: 0;
+  	padding-bottom: 0;
+  	border-bottom: 10px double LightGray;
+  }
+
+  ul.navbar li {
+  	display: block;
+  	font-size: 150%;
+
+  }
+
+  ul.navbar li a {
+  	border-right: 0;
+  }
+
+
+  body {
+    background-image: linear-gradient(#505050, #1C1C1C);
+    background-attachment: fixed;
+	width: 900px;
+  }
+}
+*/
