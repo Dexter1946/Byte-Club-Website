@@ -113,6 +113,25 @@ main h2 {
 }
 
 
+/*- Footer*/
+
+footer {
+  background-color: #2B2B2B;
+  height: 15vh;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 110%;
+}
+footer p {
+  padding-top: 7.5vh;
+}
+footer a {
+  border-right: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  padding-left: 7.5vw;
+  padding-right: 7.5vw;
+}
+
 /*Mobile/Small Device Style  - - Keep out until normal stylesheet is complete*/
 
 /*
